@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100vw;
+  height: auto;
+  max-height: 100%;
+  background-color: #dedfee;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+.box {
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 10px 10px 8px 10px #888888;
+  width: 500px;
+  margin-top: 5%;
+}
+
+#newTask {
+  width: 200px;
+}
